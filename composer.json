@@ -1,0 +1,25 @@
+{
+    "name": "rols_permissions/modulos",
+    "description": "rols_permissions_modulos",
+    "type": "library",
+    "require": {
+        "illuminate/support": "5.8.x-dev"
+    },
+    "require-dev": {
+        "php": "^7.1",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "Rols_permissions\\Modulos\\":"src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos huayta",
+            "email": "carloshuayta112@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
